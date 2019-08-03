@@ -1,0 +1,96 @@
+body {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+}
+
+a {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.87);
+
+}
+
+/********* NAVIGATION *********/
+.PETR-Logo {
+
+}
+
+.concertation {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: unset;
+    color: white;
+}
+
+.concertation:hover {
+    color: white;
+}
+
+.concertation:focus {
+    color: white;
+    transform: unset;
+}
+
+.mag-glass {
+    background: #0079D9;
+    border-color: #0079D9;;
+}
+
+/********* SECTION 1 *********/
+.content-section-1 {
+    background: #F2F6FA;
+}
+
+.p-section-1 {
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.btn-section-1 {
+    width: 100%;
+    bottom: 0;
+    height: 72px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: unset;
+
+}
+
+.btn-sec-1-img-left{
+    width: 72px;
+    height: 72px;
+    bottom: 0;
+    border-radius: unset;
+
+}
+.btn-sec-1-img-left-margin{
+    margin-left: 72px;
+}
+.btn-sec-1-img-right{
+    bottom: 0;
+    right: 0;
+     width: 72px;
+    height: 72px;
+    border-radius: unset;
+}
+.arrow-btn-sec-1-bot{
+    transform: rotate(90deg);
+}
+/*DEBUG*/
+
+/** {*/
+/*border: 1px solid red;*/
+/*}*/
