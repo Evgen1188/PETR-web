@@ -19,7 +19,10 @@ h1 {
     color: rgba(0, 0, 0, 0.87);
 
 }
-
+.mx-10 {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
 /********* NAVIGATION *********/
 .PETR-Logo {
 
@@ -94,6 +97,9 @@ h1 {
 }
 
 /********* SECTION 2 *********/
+#section-2{
+    background: #F8F9FF;
+}
 .h2-sec-2 {
     font-weight: 300;
     font-size: 36px;
@@ -135,6 +141,61 @@ h1 {
     line-height: 140%;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.87);
+    letter-spacing: 0;
+}
+
+.content-sec-2{
+    width: 312px;
+}
+/********* SECTION 3 *********/
+.h2-sec-3 {
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #DF0014;
+    margin-top: -10px;
+}
+
+.border-red {
+    margin-top: -20px;
+}
+
+.p-4-5 {
+    padding: 1.7rem;
+}
+
+.data-sec-3 {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.32);
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.btn-sec-3{
+    width: 100%;
+    height: 72px;
+    background: #DF0014;
+    bottom: 0;
+    border-radius: unset;
+}
+
+
+
+/******* MOB ******/
+@media (max-width: 1358px) {
+    .mx-10{
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+@media (min-width: 1200px) {
+    .content-sec-2{
+        width: unset;
+    }
 }
 
 /*DEBUG*/
