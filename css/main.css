@@ -3,6 +3,7 @@ body {
     font-style: normal;
     font-weight: normal;
     letter-spacing: 0.03em;
+    background: #F8F9FF;
 }
 
 a {
@@ -66,29 +67,75 @@ h1 {
     font-size: 18px;
     line-height: 22px;
     border-radius: unset;
-
 }
 
-.btn-sec-1-img-left{
+.btn-sec-1-img-left {
     width: 72px;
     height: 72px;
     bottom: 0;
     border-radius: unset;
-
 }
-.btn-sec-1-img-left-margin{
+
+.btn-sec-1-img-left-margin {
     margin-left: 72px;
 }
-.btn-sec-1-img-right{
+
+.btn-sec-1-img-right {
     bottom: 0;
     right: 0;
-     width: 72px;
+    width: 72px;
     height: 72px;
     border-radius: unset;
 }
-.arrow-btn-sec-1-bot{
+
+.arrow-btn-sec-1-bot {
     transform: rotate(90deg);
 }
+
+/********* SECTION 2 *********/
+.h2-sec-2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #0079D9;
+}
+
+.numbers {
+    color: white;
+}
+
+.numbers-square {
+    width: 64px;
+    height: 64px;
+}
+
+.number-1 {
+    background: #FFC000;
+}
+
+.number-2 {
+    background: #2BB974;
+}
+
+.number-3 {
+    background: #DF0014;
+}
+
+.number-4 {
+    background: #0079D9;
+    width: 169px;
+}
+
+.text-sec-2 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.87);
+}
+
 /*DEBUG*/
 
 /** {*/
